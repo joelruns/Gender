@@ -1,0 +1,23 @@
+##########################
+# Gender Text Classifier #
+##########################
+
+joelruns / Joel
+
+==========================
+
+Thanks to OkCupid Scraper by Allen Majewski for base code
+
+1. To scrape and gather data just run the following command. The script will scrape OkCupid for profiles and launch the classifier.
+
+  $ ./scrape.sh
+
+2. If you already have training and testing data and don't want to wait for scraping just go ahead and run the following command to start. Type "#quit" to escape the program once it starts asking for your commands.
+
+  $ python classifier.py
+
+3. If you want a list of ten sentences for each gender comparing against human performance just run the following command.
+
+  $ python experiment.py
+
+That's all folks enjoy.
